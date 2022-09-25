@@ -8,5 +8,5 @@ type Server struct {
 }
 
 func (s Server) StartServer() {
-	fmt.Printf("Started server on ip %v and port %v", s.IP, s.Port)
+	fmt.Printf("Started server version 2 on ip %v and port %v", s.IP, s.Port)
 }
